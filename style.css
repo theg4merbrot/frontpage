@@ -1,0 +1,39 @@
+:root {
+    --site-background-color: #444;
+} 
+
+
+body {
+    background-color: aliceblue;
+    
+    padding: 0;
+    margin: 0;
+}
+
+.header-section {
+    background-color: var(--site-background-color);
+    height: 5rem;
+    display: flex;
+    justify-content: space-between;
+}
+
+.header-section .logo {
+    display: flex;
+    justify-content: start;
+    align-items: flex-start;
+}
+
+.header-section .logo svg {
+    height: 4rem;
+    width: 4rem;
+    fill: white;
+}
+
+.header-section .logo p {
+    margin-top: 1rem;
+    margin-left: 0.5rem;
+    color: white;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 2rem;
+}
