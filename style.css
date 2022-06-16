@@ -21,6 +21,8 @@ body {
     display: flex;
     justify-content: start;
     align-items: flex-start;
+    margin-left: 10%;
+    margin-right: 10%;
 }
 
 .header-section .logo svg {
@@ -36,4 +38,25 @@ body {
     text-transform: uppercase;
     font-weight: bold;
     font-size: 2rem;
+}
+
+.header-section .user {
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+.header-section .user a {
+    color: white;
+    text-transform: uppercase;
+    text-decoration: none;
+}
+
+.content {
+    margin-left: 10%;
+    margin-right: 10%;
+    background-color: aqua;
+}
+
+.spacer {
+    height: 25rem;
 }
