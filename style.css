@@ -82,8 +82,21 @@ body {
 }
 
 .paragraph-frontpage .description-text .headline h1 {
-    border-bottom: 1px solid #333;
     padding-bottom: 1rem;
+    position: relative;
+}
+
+.paragraph-frontpage .description-text .headline h1::after {
+    content: "";
+    fill: #333;
+    background-color: #333;
+    width: calc(100% + 100px);
+    height: 5px;
+    position: absolute;
+    bottom: 0;
+    left: -50px;
+    border-radius: 75%;
+    border: 1px white;
 }
 
 .paragraph-frontpage .description-image img {
