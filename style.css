@@ -1,5 +1,7 @@
 :root {
     --site-background-color: #444;
+    --site-bee-color: #ffcc00;
+    --site-organge: #ff6600;
 } 
 
 
@@ -88,8 +90,7 @@ body {
 
 .paragraph-frontpage .description-text .headline h1::after {
     content: "";
-    fill: #333;
-    background-color: #333;
+    background-color:var(--site-organge);
     width: calc(100% + 100px);
     height: 5px;
     position: absolute;
@@ -109,6 +110,20 @@ body {
 .fade-in {
     animation: fadeInRight 2s ease-in-out;
 }
+
+.read-more-link {
+    text-decoration: none;
+}
+
+.bee-color {
+    color: var(--site-bee-color)!important;
+}
+
+.bee-orange {
+    color: var(--site-organge);
+}
+
+/* Animation */
 
 @keyframes fadeInRight {
     from {
